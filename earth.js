@@ -14,7 +14,7 @@ var animation;
           }
     earth = new WE.map('earth_div', mapOptions);
 
-    var layer = WE.tileLayerJSON('http://tileserver.maptiler.com/swissimage25m/%7Bz%7D/%7Bx%7D/%7By%7D.jpg/nasa.json', {attribution: .5 })
+    var layer = WE.tileLayerJSON('https://tileserver.maptiler.com/swissimage25m/%7Bz%7D/%7Bx%7D/%7By%7D.jpg/nasa.json', {attribution: .5 })
 
     // var layer = WE.tileLayer('http://data.webglearth.com/natural-earth-color/{z}/{x}/{y}.jpg'
     // , {
